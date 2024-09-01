@@ -8,7 +8,7 @@ var http = require('http');
 var querystring = require('querystring');
 
 //var server = http.createServer().listen(3000);
-var server = http.createServer().listen(21);  //DigitalOcean
+var server = http.createServer().listen(443);  //DigitalOcean
 //var server = http.createServer().listen(1882);  //OliMih
 
 server.on('request', function (req, res) {
@@ -53,7 +53,7 @@ server.on('request', function (req, res) {
     });
 });
 
-console.log('Listening on port 1882- api');
+console.log('Listening on port 443- api');
 
 };
 //export function add(a, b) {
