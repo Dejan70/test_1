@@ -9,7 +9,7 @@ var querystring = require('querystring');
 
 //var server = http.createServer().listen(3000);
 var server = http.createServer().listen(21);  //DigitalOcean
-var server = http.createServer().listen(1882);  //OliMih
+//var server = http.createServer().listen(1882);  //OliMih
 
 server.on('request', function (req, res) {
     if (req.method == 'POST') {
